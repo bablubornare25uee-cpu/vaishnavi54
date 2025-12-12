@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Photographer</title>
+    <link rel="stylesheet" href="about.css">
+	<style>
+	/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* About Section */
+.about-section {
+    padding: 70px 50px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Image */
+.about-image img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Text */
+.about-text {
+    max-width: 550px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    font-size: 22px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+/* Info Box */
+.info-box {
+    background: #fff;
+    padding: 15px 20px;
+    border-left: 4px solid #ff6600;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.info-box p {
+    margin: 8px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff8800;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+	</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="logo">Photographer</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="pro.html">Portfolio</a>
+            <a href="co.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-container">
+
+            <div class="about-image">
+                <img src="vaish.jpg" alt="Photographer Portrait">
+            </div>
+
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h3>I am a Professional Photographer</h3>
+                <p>
+                    Hi! I’m Vaishnavi Salunke, a passionate photographer with over 7 years of experience 
+                    capturing life’s most beautiful moments. Whether it's portraits, weddings, 
+                    nature landscapes, or creative conceptual photography — I bring stories to life through my lens.
+                </p>
+                <p>
+                    Photography for me is not just a profession, it’s a way to translate emotions,
+                    freeze memories, and express creativity. I’ve worked with brands, individuals,
+                    and creators to help them turn their ideas into visually stunning images.
+                </p>
+
+                <div class="info-box">
+                    <p><strong>📍 Location:</strong> New York, USA</p>
+                    <p><strong>🎞 Specialties:</strong> Portraits, Weddings, Fashion, Landscape</p>
+                    <p><strong>📷 Experience:</strong> 7+ years</p>
+                </div>
+
+                <a href="#" class="btn">View My Portfolio</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>profession dashboard</p>
+    </footer>
+
+</body>
+</html>

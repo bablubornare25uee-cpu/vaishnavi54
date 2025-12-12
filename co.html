@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Photographer</title>
+    <link rel="stylesheet" href="contact.css">
+	
+	<style>
+	/* General */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 40px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Left info box */
+.contact-info {
+    max-width: 450px;
+}
+
+.contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background: #fff;
+    padding: 20px;
+    border-left: 4px solid #ff6600;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.info-box p {
+    margin: 8px 0;
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social a:hover {
+    color: #ff6600;
+}
+
+/* Form styling */
+.contact-form {
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.input-group textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff8800;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+	</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 class="logo">Photographer</h1>
+        <nav>
+             <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="pro.html">Portfolio</a>
+            <a href="co.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Main Section -->
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+            <!-- Left Side Info -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p>
+                    Have a project in mind or want to book a photoshoot?  
+                    I’d love to hear from you. Feel free to send a message anytime!
+                </p>
+
+                <div class="info-box">
+                    <p><strong>📍 Location:</strong> Vaijapur , Sambhajinagar</p>
+                    <p><strong>📞 Phone:</strong> 9209410725</p>
+                    <p><strong>📧 Email:</strong> vaish@gmail.com</p>
+                    <p><strong>⏱ Working Hours:</strong> Mon – Sat, 9AM – 8PM</p>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.instagram.com/_justt.vaish175?igsh=MXRpM2d1ZjN2ZDR0dA==">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="photography by lady photographer">YouTube</a>
+                </div>
+            </div>
+
+            <!-- Form Section -->
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>profession dashboard</p>
+    </footer>
+
+</body>
+</html>
